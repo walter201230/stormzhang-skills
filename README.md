@@ -1,8 +1,10 @@
 # stormzhang-skills
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 帅张（stormzhang）风格写作 AI Skill，基于 [Agent Skills](https://agentskills.io) 开放标准。
 
-通过"蒸馏"帅张公众号文章、知识星球精华等大量真实内容，提炼出其写作风格、思维模式和价值观，让 AI 能够以帅张的风格撰写长文内容。
+通过"蒸馏"帅张公众号 1300+ 篇文章、知识星球 23 万字精华内容，提炼出其写作风格、思维模式和价值观，让 AI 能够以帅张的风格撰写长文内容。
 
 ## 可用 Skills
 
@@ -12,30 +14,35 @@
 
 ## 安装方式
 
-### Claude Code
-
-将 `stormzhang-writer` 文件夹复制到 Claude Code 的 skills 目录：
+### 方式一：手动安装
 
 ```bash
-# 全局安装（所有项目可用）
-cp -r stormzhang-writer ~/.claude/skills/
+# 克隆仓库
+git clone https://github.com/walter201230/stormzhang-skills.git
 
-# 项目级安装（仅当前项目可用）
-cp -r stormzhang-writer .claude/skills/
+# 全局安装（所有项目可用）
+cp -r stormzhang-skills/stormzhang-writer ~/.claude/skills/
+
+# 或项目级安装（仅当前项目可用）
+cp -r stormzhang-skills/stormzhang-writer .claude/skills/
 ```
 
 安装后重启 Claude Code 即可自动识别。
 
-### 一键安装
+### 方式二：一键安装
 
-你也可以直接告诉 Claude Code：
+在 Claude Code 中直接说：
 
-> 帮我安装这个 skill：https://github.com/你的用户名/stormzhang-skills
+> 帮我安装这个 skill：https://github.com/walter201230/stormzhang-skills
 
-### OpenClaw
+### 其他平台
 
 ```bash
+# OpenClaw
 cp -r stormzhang-writer ~/.openclaw/skills/
+
+# Codex
+cp -r stormzhang-writer ~/.agents/skills/
 ```
 
 ## 使用方式
