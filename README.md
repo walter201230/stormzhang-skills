@@ -2,15 +2,15 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-帅张（stormzhang）风格写作 AI Skill，基于 [Agent Skills](https://agentskills.io) 开放标准。
+stormzhang 风格写作 AI Skill，基于 [Agent Skills](https://agentskills.io) 开放标准。
 
-通过"蒸馏"帅张公众号 1300+ 篇文章、知识星球 23 万字精华内容，提炼出其写作风格、思维模式和价值观，让 AI 能够以帅张的风格撰写长文内容。
+通过"蒸馏" stormzhang 公众号 1300+ 篇文章、知识星球 23 万字精华内容，提炼出其写作风格、思维模式和价值观，让 AI 能够以 stormzhang 的风格撰写长文内容。
 
 ## 可用 Skills
 
 | Skill | 描述 | 触发词 |
 |-------|------|--------|
-| [stormzhang-writer](./stormzhang-writer/) | 帅张风格长文写作 | 帅张风格、写文章、写长文、帮我写一篇 |
+| [stormzhang-writer](./stormzhang-writer/) | stormzhang 风格长文写作 | stormzhang 风格、写文章、写长文、帮我写一篇 |
 
 ## 安装方式
 
@@ -49,11 +49,11 @@ cp -r stormzhang-writer ~/.agents/skills/
 
 安装后，在 Claude Code 中直接说：
 
-- "用帅张的风格写一篇关于 XXX 的文章"
-- "帅张风格，帮我写一篇公众号文章"
+- "用 stormzhang 的风格写一篇关于 XXX 的文章"
+- "stormzhang 风格，帮我写一篇公众号文章"
 - "以 stormzhang 的语气写一篇长文分享"
 
-Skill 会自动触发，按照帅张的写作风格生成 1000 字以上的长文内容。
+Skill 会自动触发，按照 stormzhang 的写作风格生成 1000 字以上的长文内容。
 
 ## 风格特点
 
@@ -79,14 +79,14 @@ stormzhang-writer/
 
 本项目的制作流程：
 
-1. 收集帅张公众号 1300+ 篇文章、知识星球 23 万字精华内容
+1. 收集 stormzhang 公众号 1300+ 篇文章、知识星球 23 万字精华内容
 2. 通过 AI 分析提炼写作风格、标志性表达、文章结构模式
 3. 整理为 SKILL.md 指令文件 + references 参考素材
 4. 反复测试调优，确保输出风格的一致性
 
 ## 致谢
 
-- 写作风格参考自公众号「stormzhang」及知识星球「帅张和他的朋友们」
+- 写作风格参考自公众号「stormzhang」及知识星球「stormzhang 和他的朋友们」
 - Skill 格式参考 [khazix-skills](https://github.com/KKKKhazix/khazix-skills)
 
 ## License
